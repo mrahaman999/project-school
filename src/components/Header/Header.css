@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header img{
+    height: 50px;
+    width: 50px;
+}
+
+.header{
+   top: 0;
+   left: 0;
+    padding-left: 5px;
+    padding-top: 5px;   
+    align-items: center;
+    display: flex;
+    text-align: center;
+    
+    justify-content: space-between;
+
+}
+
+.navbar{
+    background-color: blue;
+    
+    text-align: right; 
+    
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px;
+
+}
+
+.navbar a:hover{
+    background-color: gray;
+}
